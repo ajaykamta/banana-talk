@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #8b5cf6;
+    --black: #818cf8;
+    --width-break: 600px
+}
+
+body {
+    margin: 0;
+    font-family: 'Marcellus', serif;
+    color: black;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+
+#translate-output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+    border-top-left-radius: 2.5rem;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+h2.logo {
+    color: #000;
+}
+
+.logo {
+    display: inline;
+}
+
+.title {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    margin: 2px;
+    font-size: 39px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    background: #3c8dbc;
+    box-shadow: 0 0 3px gray;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title:hover {
+    background: black;
+}
