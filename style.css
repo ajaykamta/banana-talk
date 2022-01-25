@@ -65,7 +65,8 @@ footer {
     padding: 1rem;
     background-color: var(--primary);
     text-align: center;
-    border-top-left-radius: 2.5rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem ;
 }
 
 footer p {
